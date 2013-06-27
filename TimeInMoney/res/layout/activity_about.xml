@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="About"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#0099CC"
+        android:textSize="40dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="Developed by: \n Pedro Rocha \n J. P. Dias"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#0099CC" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="top|center_vertical|center_horizontal"
+        android:text="Thanks to: \n Jeremy Feinstein \n https://github.com/jfeinstein10/SlidingMenu \n and \n Jonas Gehring \n https://github.com/jjoe64/GraphView"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#0099CC"
+        android:autoLink="web"
+        android:linksClickable="True" />
+
+</LinearLayout>

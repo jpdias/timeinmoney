@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TimeInMoney</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+    
+    <string-array name="event_type_array">
+        <item>Trip</item>
+        <item>Party</item>
+        <item>Hangout</item>
+        <item>Class</item>
+        <item>Exam</item>
+        <item>Package</item>
+    </string-array>
+</resources>
